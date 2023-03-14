@@ -1,0 +1,76 @@
+body{
+   background-color:lightgray;
+   margin: 0; 
+}
+/*h1 inside the header selector
+margin 0 means the header is no more margin/*/
+header h1{
+   margin:0;
+}
+header{
+   padding: 5px;
+   margin-bottom: 2%;
+   background-color: white;
+}
+.post , .post1, .post2{
+   background-color: white;
+   
+}
+.post {
+   margin-top:10%;
+   margin-bottom: 10%;
+}
+.post h3, .post p{
+   margin: 0;
+}
+p {  
+   padding: 10px;
+}
+.post-header div:first-child{
+   float: left;
+   padding:5px;
+   
+}
+.post-header div:Last-child{
+  float: right;
+  padding:5px;
+
+}
+/*width:600px; margin: auto; sets the img in the center in the x axis*/
+.container{
+   width:600px;
+   margin: auto; 
+   
+}
+/*.post img selects the img and set it in the center of the container*/
+  .post img{
+   width:100%;
+}
+.post1 {
+   margin-top:10%;
+   margin-bottom: 10%;
+}
+.post1-header :first-child{
+   float:left;
+   padding: 5px;
+}
+.post1-header :last-child{
+   float:right;
+   margin:5px;
+}
+.post1 img{
+   width:100%;
+}
+.post2-header :first-child{
+   float:left;
+   padding: 5px;
+}
+.post2-header :last-child{
+   float:right;
+   margin:5px;
+}
+.post2 img{
+   width:100%; 
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
